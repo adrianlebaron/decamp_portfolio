@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/adrianlebaron/WhistleViewTool
-  revision: 88d4a4ef96a19ba55bd1bdc720b2fc105d38d004
-  specs:
-    whistle_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -180,6 +174,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
+    whistle_view_tool (0.1.0)
 
 PLATFORMS
   ruby
@@ -202,7 +197,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
-  whistle_view_tool!
+  whistle_view_tool (~> 0.1.0)
 
 BUNDLED WITH
    1.16.1
