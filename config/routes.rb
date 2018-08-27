@@ -9,7 +9,7 @@ Rails.application.routes.draw do
  
   resources :blogs do
     member do
-      get :togle_status
+      get :toggle_status
     end
   end
 
